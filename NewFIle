@@ -209,7 +209,7 @@ void playscratch(){
         cout << "很可惜沒中獎" << endl;
     } else if (randomnum < chance2) {
         cout << "恭喜中獎！獲得" << cost << "元" << endl;
-        money += reward;
+        money += cost;
     }else {
         cout << "恭喜中獎！獲得" << reward << "元" << endl;
         money += reward;
