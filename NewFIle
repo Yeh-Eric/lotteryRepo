@@ -74,10 +74,9 @@ void playLotto(){
         this_thread::sleep_for(chrono::seconds(1));
     }
 
-    cout << "特別號：";
+    cout << "特別號：" << specialNumber << endl;
     cout.flush();
     this_thread::sleep_for(chrono::seconds(1));
-    cout << specialNumber << endl;
 
     // 檢查中獎情況
     int normal = 0, special = 0;
